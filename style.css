@@ -4,64 +4,42 @@
     font-size: 50px;
     background-color: rgb(248, 248, 248);
     padding: 20px;
-    
 }
-
 .heder h1{
     border: 2px solid rgb(18, 211, 224);
     border-radius: 20px;
     box-shadow: 10px 15px 20px;
     margin-bottom: 20px;
 }
-
 .heder img{
     border: 2px solid rgb(22, 247, 235);
     border-radius: 20px;
     box-shadow: 5px 5px 10px;
 }
 .content{
-    display: flex;
+    display:flex;
+    flex-wrap: wrap;
     justify-content:space-around;
     width: 100%;
-    height: 460px;
+    height: 100%;
     background-color: rgb(255, 255, 255);
-    /* outline: 2px solid; */
-
+    
 }
-
 .content p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-
 .content img{
       border: 2px solid rgb(22, 247, 235);
       border-radius: 20px;
       padding: 3px;
 }
-
-.block{
-    text-align: center;
-    font-size: 35px;
-    font-family:Arial, Helvetica, sans-serif;
-    height: 40px;
-    background-color: rgb(68, 67, 67);
-    
-    
-    
-    
-}
-    .block a{
-        text-decoration: none;
-        color: rgb(18, 211, 224);
-        
-    }
-
+ /* Стили для колонок с контентом */
 .box1{
     margin-bottom: 20px;
     text-align: center;
     width: 150px;
-    height: 200px;
+    height: 100%;
     border: 2px solid rgb(18, 211, 224);
     border-radius: 5px;
     padding: 5px;
@@ -70,15 +48,12 @@
 }
 .box1:hover{
     background-color: rgb(51, 167, 235);
-   
-    
-    
-    
 }
 .my-button1 {
     display: inline-block;
     padding: 5px 10px;
     margin-top: 20px;
+    margin-bottom: 5px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(18, 211, 224);
@@ -100,7 +75,7 @@
     margin-bottom: 20px;
     text-align: center;
     width: 150px;
-    height: 200px;
+    height: 100%;
     border: 2px solid rgb(18, 211, 224);
     border-radius: 5px;
     padding: 5px;
@@ -115,6 +90,7 @@
     display: inline-block;
     padding: 5px 10px;
     margin-top: 40px;
+    margin-bottom: 5px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(18, 211, 224);
@@ -130,12 +106,12 @@
     color: #0b8dad;
     font-family:fantasy;
 }
-
+ 
 .box3{
     margin-bottom: 20px;
     text-align: center;
     width: 150px;
-    height: 200px;
+    height: 100%;
     border: 2px solid rgb(18, 211, 224);
     border-radius: 5px;
     padding: 5px;
@@ -149,6 +125,7 @@
     display: inline-block;
     padding: 5px 10px;
     margin-top: 20px;
+    margin-bottom: 5px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(18, 211, 224);
@@ -169,7 +146,7 @@
     margin-bottom: 20px;
     text-align: center;
     width: 150px;
-    height: 200px;
+    height: 100%;
     border: 2px solid rgb(18, 211, 224);
     border-radius: 5px;
     padding: 5px;
@@ -183,6 +160,7 @@
     display: inline-block;
     padding: 5px 10px;
     margin-top: 20px;
+    margin-bottom: 5px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(18, 211, 224);
@@ -203,7 +181,7 @@
     margin-bottom: 20px;
     text-align: center;
     width: 150px;
-    height: 200px;
+    height: 100%;
     border: 2px solid rgb(18, 211, 224);
     border-radius: 5px;
     padding: 5px;
@@ -217,6 +195,7 @@
     display: inline-block;
     padding: 5px 10px;
     margin-top: 20px;
+    margin-bottom: 5px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(18, 211, 224);
@@ -225,7 +204,7 @@
     cursor: pointer;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    transition:500ms;
+    transition: 500ms;
 }
 .my-button5:hover{
     background-color: rgb(231, 247, 14);
@@ -237,7 +216,7 @@
     margin-bottom: 20px;
     text-align: center;
     width: 150px;
-    height: 200px;
+    height: 100%;
     border: 2px solid rgb(18, 211, 224);
     border-radius: 5px;
     padding: 5px;
@@ -251,6 +230,7 @@
     display: inline-block;
     padding: 5px 10px;
     margin-top: 40px;
+    margin-bottom: 5px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(18, 211, 224);
@@ -271,7 +251,7 @@
     margin-bottom: 20px;
     text-align: center;
     width: 150px;
-    height: 200px;
+    height: 100%;
     border: 2px solid rgb(18, 211, 224);
     border-radius: 5px;
     padding: 5px;
@@ -285,6 +265,7 @@
     display: inline-block;
     padding: 5px 10px;
     margin-top: 40px;
+    margin-bottom: 5px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(18, 211, 224);
@@ -301,12 +282,11 @@
     font-family:fantasy;
 }
 
-
 .box8{
     margin-bottom: 20px;
     text-align: center;
     width: 150px;
-    height: 200px;
+    height: 100%;
     border: 2px solid rgb(18, 211, 224);
     border-radius: 5px;
     padding: 5px;
@@ -320,6 +300,7 @@
     display: inline-block;
     padding: 5px 10px;
     margin-top: 20px;
+    margin-bottom: 5px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(18, 211, 224);
@@ -337,194 +318,13 @@
 }
 
 
-@media only screen and (max-width: 1340px)  {
-    
+@media (max-width:1340px){
     .content{
-        display:inline-block;
-        justify-content:space-between;
-        
-    
-    }
-
-
-    .box1{
-        align-items: center;
-        display: inline-block;
-        height: 250px;
-        margin-left: 20px;
-        margin-left: 7%;
-        height: 210px;
-    }
-
-    .box2{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 7%;
-        height: 210px;
-    }
-    
-    .box3{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 7%;
-        height: 210px;
-    }
-    
-    .box4{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 7%;
-        height: 210px;
-    }
-    
-    
-    .box5{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 7%;
-        height: 210px;
-    }
-    
-    .box6{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 7%;
-        height: 210px;
-    }
-    
-    .box7{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 7%;
-        height: 210px;
-    }
-    .box8{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 7%;
-        height: 210px;
-        
-    }
-    
-    .block{
-        display: inline-bloc;
-        text-align: center;
-        font-size: 20px;
-        font-family:Arial, Helvetica, sans-serif;
-        margin-top: 90px;
-       
+        width: 100%;
     }
 }
-
-
-@media only screen and (max-width: 420px){
-       .heder{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-        background-color: rgb(255, 255, 255);
-        padding: 10px;
-        
+@media(max-width:425px) {
+    .heder{
+        font-size: 20px;
     }
-    
-    .heder h1{
-        border: 2px solid rgb(18, 211, 224);
-        border-radius: 20px;
-        box-shadow: 10px 15px 20px;
-        margin-bottom: 20px;
-    }
-
-    .box1{
-        align-items: center;
-        display: inline-block;
-        height: 250px;
-        margin-left: 20px;
-        margin-left: 25%;
-    }
-
-    .box2{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 25%;
-    }
-    
-    .box3{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 25%;
-    }
-    
-    .box4{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 25%;
-    }
-    
-    
-    .box5{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 25%;
-    }
-    
-    .box6{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 25%;
-    }
-    
-    .box7{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 25%;
-    }
-    .box8{
-        align-items: center;
-        
-        display: inline-block;
-        height: 250px;
-        margin-bottom: 20px;
-        margin-left: 25%;
-        
-    }
-
 }
